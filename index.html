@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+    <title>WIST</title>
+</head>
+<body>
+    <section id="page">
+        <header>
+            <div id="logo"><img src="logo.png" alt="logo"></div>
+            <div id="opis"><h1>Telewizja, Telefon, Internet</h1></div>
+        </header>
+        <nav>
+            <a href="#onas"><div id="menuonas">O nas</div></a>
+            <a href="#oferta"><div class="menu">Oferta</div></a>
+            <a href="#kontakt"><div class="menu">Kontakt</div></a>
+            <a href="#wideo"><div class="menu">Wideo</div></a>
+        </nav>
+        <section>
+            <div id="onas">
+               <h1>30 LAT DZIAŁALNOŚCI "WIST" W ŁĄCE</h1><br>
+               <p>Spółdzielnia Telekomunikacyjna „WIST” w Łące rozpoczęła świadczenie usług telekomunikacyjnych w 1991 roku jako jeden z pierwszych niezależnych operatorów telekomunikacyjnych w Polsce.</p><br>
+               <p>W początkowym okresie swojej działalności Spółdzielnia obsługiwała około 600 abonentów z terenu dwóch gmin: Trzebownisko i Krasne.</p><br>
+               <p>Obecnie, dzięki dynamicznemu rozwojowi jesteśmy operatorem telekomunikacyjnym który dociera ze swą ofertą do kilkunastu tysięcy odbiorców, zarówno indywidualnych, jak i podmiotów gospodarczych, znajdujących się na obszarze powiatu rzeszowskiego w miejscowościach:</p>
+               <ul>
+                   <li>Jasionka, Łąka, Łukawiec, Nowa Wieś, Stobierna, Tajęcina, Terliczka, Trzebownisko, Wólka Podleśna, Zaczernie z terenu gminy Trzebownisko,</li>
+                   <li>Górno, Markowizna, Nienadówka, Trzeboś, Trzebuska, Kąty Trzebuskie, Turza, Wólka Niedźwiedzka, Wólka Sokołowska i miasta Sokołów Małopolski z terenu gminy Sokołów Małopolski,</li>
+                   <li>Wysoka Głogowska i Głogów Małopolski (częściowo) z terenu gminy Głogów Małopolski,</li>
+                   <li>Krasne, Malawa, Palikówka, Strażów z terenu gminy Krasne,</li>
+                   <li>Łowisko, Kamień, Nowy Kamień z terenu gminy Kamień,</li>
+                   <li>Rakszawa (częściowo) z terenu gminy Rakszawa.</li>
+               </ul>
+               <br>
+               <p>Celem Spółdzielni Telekomunikacyjnej „WIST” w Łące jest udostępnianie wszystkich usług telekomunikacyjnych bazujących na najnowocześniejszych technologiach.</p>
+            </div>
+            <hr>
+            <div id="oferta">
+                <div onmouseover="tv()" onmouseleave="tvE()" id="telewizja" class="of">Telewizja</div>
+                <div onmouseover="int()" onmouseleave="intE()" id="internet" class="of">Internet</div>
+                <div onmouseover="tel()" onmouseleave="telE()" id="telefon" class="of">Telefon</div>
+            </div>
+            <hr>
+            <div id="kontakt">
+                <div class="mapa">
+                    <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Wist.%20Sp%C3%B3%C5%82dzielnia&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0">
+                    </iframe>
+                    <a href="https://www.whatismyip-address.com/divi-discount/"></a>
+                    <br><style>.mapouter{position:relative;text-align:right;}
+                    </style>
+                    <a href="https://www.embedgooglemap.net"></a>
+                    <style>.gmap_canvas 
+                    {
+                        overflow: hidden;
+                        background: none!important;
+                        height: 500px;
+                        width: 600px;
+                    }
+                    </style>
+                </div>
+                <div id="dane">
+                    <p>36-004 Łąka 175</p>
+                    <p>pn., wt., pt.: 07:00 - 15:00 </p>
+                    <p>śr., cz.: 07:00 - 17:00</p>
+                    <p>tel. <b>17 7721 200</b></p>
+                    <p>fax. <b>17 7727 501</b></p>
+                    <p>e-mail: biuro@wist.com.pl</p>
+                </div>
+            </div>
+            <hr>
+            <div id="wideo">
+                <div id=inW>
+                    <iframe width="100%" height="100%" 
+                    src="https://www.youtube.com/embed/N4aYDsb9IcE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <footer>
+            Autor strony: Miłosz Józefczyk &copy
+        </footer>
+        <script>
+
+            function tv(){
+                document.getElementById("telewizja").innerHTML = "";
+                document.getElementById("telewizja").style.fontSize = "150%";
+                document.getElementById("telewizja").style.transition = "all 0.8s";
+                document.getElementById("telewizja").innerHTML = "<h3>OFERTA</h3><p>&bull; Cyfrowa jakość HD</p><p>&bull; Ponad 100 kanałów</p><p>&bull; Instalacja już za 99 zł</p>";
+            }
+
+            function tvE(){
+                document.getElementById("telewizja").style.fontSize = "300%";
+                document.getElementById("telewizja").innerHTML = "Telewizja";
+            }
+
+            function int(){
+                document.getElementById("internet").innerHTML = "";
+                document.getElementById("internet").style.fontSize = "150%";
+                document.getElementById("internet").style.transition = "all 0.8s";
+                document.getElementById("internet").innerHTML = "<h3>OFERTA</h3><p>&bull; Instalacja wraz z routerem bezprzewodowym 99 zł</p><p>&bull; Aktywacja usługi dostępu do sieci Internet 1 zł</p><p>&bull; Umowa na 24 miesiące</p>";
+            }
+
+            function intE(){
+                document.getElementById("internet").style.fontSize = "300%";
+                document.getElementById("internet").innerHTML = "Internet";
+            }
+
+            function tel(){
+                document.getElementById("telefon").innerHTML = "";
+                document.getElementById("telefon").style.fontSize = "150%";
+                document.getElementById("telefon").style.transition = "all 0.8s";
+                document.getElementById("telefon").innerHTML = "<h3>OFERTA</h3><p>&bull; Bezpłatne połączenia lokalne w sieci  WIST</p><p>&bull; Już od 29,52 zł</p><p>&bull; Umowa na 24 miesiące</p>";
+            }
+
+            function telE(){
+                document.getElementById("telefon").style.fontSize = "300%";
+                document.getElementById("telefon").innerHTML = "Telefon";
+            }
+
+        </script>
+    </section>
+</body>
+</html>

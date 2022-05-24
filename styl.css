@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: URL(tlo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#page{
+    background-color: none;
+    height: 100%;
+    width: 60%;
+}
+
+header{
+    background-color: none;
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+#logo{
+    width: 22%;
+    height: 100%;
+    background-color: rgba(35, 78, 218);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#opis{
+    width: 78%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(235, 231, 231);
+    font-size: 150%;
+}
+
+nav{
+    width: 100%;
+    height: 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    background-color: rgba(35, 78, 218);
+    height: 100%;
+    width: 26%;
+    color: rgba(235, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 120%;
+}
+
+#menuonas{
+    height: 100%;
+    width: 22%;
+    background-color: rgba(35, 78, 218);
+    color:rgba(235, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 120%;
+}
+
+.menu:hover{
+    background-color: rgba(68, 137, 216, 0.5);
+}
+
+#menuonas:hover{
+    background-color: rgba(68, 137, 216, 0.6);
+    color: white;
+}
+
+hr{
+    border-color: rgba(35, 78, 218, 0.97);
+ 
+}
+
+#onas{
+    background-color: rgba(0,0,0, 0.8);
+    width: 100%;
+    height: 450px;
+    color: rgba(197, 197, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 110%;
+    overflow-y: auto;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 150%;
+    height: 20px;
+}
+
+#oferta{
+    background-color: rgba(0,0,0, 0.8);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.of{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 300%;
+    color: white;
+}
+
+#telewizja{
+    background-image: URL(telewizja.jpg);
+    background-size: 100% 100%;
+}
+
+#internet{
+    background-image: URL(internet.jpg);
+    background-size: 100% 100%;
+}
+
+#telefon{
+    background-image: URL(telefon.jpg);
+    background-size: 100% 100%;
+}
+
+#kontakt{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mapa{
+    height: 60%;
+    width: 45%;
+}
+
+#dane{
+    width: 30%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 120%;
+    color: rgba(197, 197, 197);
+    background-color: rgba(35, 78, 218, 0.6);
+}
+
+#dane:hover{
+    background-color: rgba(35, 78, 218);
+    color: white;
+}
+
+#dane p{
+    margin: 2px;
+}
+
+#wideo{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#inW{
+    width: 70%;
+    height: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    clear: both;
+    background-color: rgba(35, 78, 218, 0.97);
+    width: 100%;
+    height: 2%;
+    color: rgba(197, 197, 197);
+    text-align: center;
+}
+
+#telewizja:hover{
+    transition: 1s;
+    background-image: none;
+    background-color: rgba(35, 78, 218, 0.7);
+}
+
+#internet:hover{
+    transition: 1s;
+    background-image: none;
+    background-color: rgba(35, 78, 218, 0.7);
+}
+
+#telefon:hover{
+    transition: 1s;
+    background-image: none;
+    background-color: rgba(35, 78, 218, 0.7);
+}
